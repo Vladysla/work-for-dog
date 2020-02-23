@@ -8,7 +8,7 @@ const TodoList = () => {
   const elements = () => {
     return (
       <li className="list-group-item">
-        <TodoListItem {...itemProps } />
+        <TodoListItem />
       </li>
     )
   }
